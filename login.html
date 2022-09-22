@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        div{
+            width: 50%;
+            background-color: #6a65bf;
+            height: 580px;
+            margin: auto;
+            padding: 40px ;
+            margin-top: -10px;
+            margin-bottom: -20px;
+          
+        }
+        div>div{
+            background-color: white;
+            height: 80%;
+            width: 50%;
+            margin: auto;
+            margin-top: 20px;
+            border-radius: 15px;
+        }
+        h2{
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 60px;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        #pass{
+            margin-top: 30px;
+        }
+        button{
+            margin: auto;
+            padding: 18px;
+            width: 100%;
+            margin-top: 30px;
+            background-color: #844db2;
+            color: white;
+            border: none;
+        }
+        p{
+            color: #cacaca;
+            font-size: 20px;
+
+        }
+        .p{
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    
+   <div>
+    <div>
+
+        <h2>Login</h2>
+        <p>Email</p>
+        <hr>
+        <p id="pass">Password</p>
+        <hr>
+        <button>Login</button>
+        <br>
+        <br>
+        <p class="p">Forgot <a href="">Password?</a></p>
+        <p class="p">Don't have an account?  <a href="">Sign Up</a></p>
+</div>
+    
+   </div>
+
+</body>
+</html>
